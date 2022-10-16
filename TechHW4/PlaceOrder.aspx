@@ -5,17 +5,17 @@
       <h1 style="margin-top:50px;text-align:center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Place Order</h1>
 <div id="placeOrderForm" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-left: 10%; margin-right: 10%;">
     <div class="row">
-        <label for="inputFirstName" class="col justify-content-center form-label">Pet Owner First Name</label>
-        <label for="inputLastName" class="col justify-content-center form-label">Pet Owner Last Name</label>
+        <label for="inputFirstName" class="col form-label">Pet Owner First Name</label>
+        <label for="inputLastName" class="col form-label">Pet Owner Last Name</label>
     </div>
     <div class="row">
         <input type="text" class="col form-control" id="inputFirstName" placeholder="Pet Owner First Name" required>
         <input type="text" class="col form-control" id="inputLastName"  placeholder="Pet Owner Last Name" required>
   </div>
   <div class="row">
-        <label for="inputEmail" class="col justify-content-center form-label">Email Address</label>
-        <label for="inputMobilePhoneNumber" class="col justify-content-center form-label">Mobile Phone Number</label>
-        <label for="inputHomePhoneNumber" class="col justify-content-center form-label">Home Phone Number</label>
+        <label for="inputEmail" class="col form-label">Email Address</label>
+        <label for="inputMobilePhoneNumber" class="col form-label">Mobile Phone Number</label>
+        <label for="inputHomePhoneNumber" class="col form-label">Home Phone Number</label>
   </div>
   <div class="row">
       <input type="email" class="col form-control" id="inputEmail" placeholder="name@example.com" required>
@@ -23,17 +23,17 @@
       <input type="tel" class="col form-control" id="inputPhoneNumber" placeholder="Pet Owner Home Phone Number">
   </div>
   <div class="row">
-      <label for="inputAddressLine1" class="col justify-content-center form-label">Address Line 1</label>
-      <label for="inputAddressLine2" class="col justify-content-center form-label">Address Line 2</label>
+      <label for="inputAddressLine1" class="col form-label">Address Line 1</label>
+      <label for="inputAddressLine2" class="col form-label">Address Line 2</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputAddressLine1" placeholder="Street" required>
       <input type="text" class="col form-control" id="inputAddressLine2" placeholder="Apt #" required>
   </div>
   <div class="row">
-      <label for="inputCity" class="col justify-content-center form-label">City</label>
-      <label for="inputState" class="col justify-content-center form-label">State/Providence</label>
-      <label for="inputZipCode" class="col justify-content-center form-label">ZipCode</label>
+      <label for="inputCity" class="col form-label">City</label>
+      <label for="inputState" class="col form-label">State/Providence</label>
+      <label for="inputZipCode" class="col form-label">ZipCode</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputCity" placeholder="City" required>
@@ -42,9 +42,9 @@
   </div>
   <br>
   <div class="row">
-       <label for="inputPetName" class="col justify-content-center form-label">Pets Name</label>
-       <label for="inputPetIdNumber" class="col justify-content-center form-label">Pets Identification Number</label>
-       <label for="inputPetBreed" class="col justify-content-center form-label">Pets Breed</label>
+       <label for="inputPetName" class="col form-label">Pets Name</label>
+       <label for="inputPetIdNumber" class="col form-label">Pets Identification Number</label>
+       <label for="inputPetBreed" class="col form-label">Pets Breed</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputPetName" placeholder="Pet Name" required>
@@ -52,9 +52,9 @@
       <input type="text" class="col form-control" id="inputPetBreed" placeholder="Breed" > 
   </div>
   <div class ="row">
-      <label for="inputPerscriptionName" class="col justify-content-center form-label">Perscription Name</label>
-      <label for="inputPerscriptionDosage" class="col justify-content-center form-label">Perscription Dosage</label>
-      <label for="inputOrderDate" class="col justify-content-center form-label">Perscription Order Date</label>
+      <label for="inputPerscriptionName" class="col form-label">Perscription Name</label>
+      <label for="inputPerscriptionDosage" class="col form-label">Perscription Dosage</label>
+      <label for="inputOrderDate" class="col form-label">Perscription Order Date</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputPerscriptionName" placeholder="Perscription Name" required>
@@ -63,16 +63,16 @@
   </div>
   <br>
   <div class="row">
-    <label for="inputVetFirstName" class="col justify-content-center form-label">Veternarian First Name</label>
-    <label for="inputVetLastName" class="col justify-content-center form-label">Veternarian Last Name</label>
-    <label for="inputVetDEANumber" class="col justify-content-center form-label">Veternarian DEA Number</label>
+    <label for="inputVetFirstName" class="col form-label">Veternarian First Name</label>
+    <label for="inputVetLastName" class="col form-label">Veternarian Last Name</label>
+    <label for="inputVetDEANumber" class="col form-label">Veternarian DEA Number</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputVetFirstName" placeholder="Vet First Name" required>
       <input type="text" class="col form-control" id="inputVetLastName" placeholder="Vet Last Name" required>
       <input type="text" class="col form-control" id="inputVetDEANumber" placeholder="Vet DEA Number" required>
   </div>
-  <div class="row justify-content-center">
+  <div class="row">
     <label for="inputVetEmail" class="col form-label">Veternarian Email Address</label>
     <label for="inputVetPhoneNumber" class="col form-label">Veternarian Phone Number</label>
   </div>
@@ -81,17 +81,17 @@
       <input type="tel" class="col form-control" id="inputVetPhoneNumber" placeholder="Veternarian Phone Number">
   </div>
   <div class="row">
-      <label for="inputVetAddressLine1" class="col justify-content-center form-label">Vet Office Address Line 1</label>
-      <label for="inputVetAddressLine2" class="col justify-content-center form-label">Vet Office Address Line 2</label>
+      <label for="inputVetAddressLine1" class="col form-label">Vet Office Address Line 1</label>
+      <label for="inputVetAddressLine2" class="col form-label">Vet Office Address Line 2</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputVetAddressLine1" placeholder="Street" required>
       <input type="text" class="col form-control" id="inputVetAddressLine2" placeholder="Apt #" required>
   </div>
   <div class="row">
-      <label for="inputVetCity" class="col justify-content-center form-label">Vet Office City</label>
-      <label for="inputVetState" class="col justify-content-center form-label">Vet Office State/Providence</label>
-      <label for="inputVetZipCode" class="col justify-content-center form-label">Vet Office ZipCode</label>
+      <label for="inputVetCity" class="col form-label">Vet Office City</label>
+      <label for="inputVetState" class="col form-label">Vet Office State/Providence</label>
+      <label for="inputVetZipCode" class="col form-label">Vet Office ZipCode</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputVetCity" placeholder="City" required>
