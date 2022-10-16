@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>Luke Jecen Technical Homework 4</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
@@ -13,13 +13,13 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div style="background-color:whitesmoke; height: 100px">
-            <h1 style="color:steelblue; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-left: 25px; padding-top: 25px">Pet Med</h1>
-            <div style="font-size:18px; float:right; margin-right:25px; margin-top:-25px; position:static; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
-                <a href="PlaceOrder.aspx">Place Order</a>
-                <a href="UpdateOrder.aspx">Update Order</a>
-                <a href="RequestOrder.aspx">Request Order</a>
+    <form id="form1"  runat="server">
+        <div style="background-color:#022E1F; height: 100px">
+            <h1 style="font-family:Arial; margin-left: 25px; padding-top: 25px" class="text-white font-weight-bold">Pet Medication System</h1>
+            <div style="font-size:18px; float:right; margin-right:25px; margin-top:-25px; position:static; font-family:Arial">
+                <a href="PlaceOrder.aspx" class="text-white">Place Order</a>
+                <a href="UpdateOrder.aspx" class="text-white">Update Order</a>
+                <a href="RequestOrder.aspx" class="text-white">Request Order</a>
             </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
