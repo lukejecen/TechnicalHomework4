@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <h1 style="margin-top:50px;text-align:center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Update Order</h1>
+     <h1 style="margin-top:50px;Padding:20px;font-family:Arial" class="text-center font-weight-bold text-uppercase">Update Order</h1>
      <div class="table-responsive">
          <table class="table table-bordered">
              <thead class="table-dark">

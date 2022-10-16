@@ -2,14 +2,16 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <h1 style="margin-top:50px;text-align:center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Place Order</h1>
-<div id="placeOrderForm" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-left: 10%; margin-right: 10%;">
+<h1 style="margin-top:50px;padding:20px;font-family:Arial" class="text-center font-weight-bold text-uppercase">Place Order</h1>
+<div id="placeOrderForm" style="font-family:Arial; margin-left: 10%; margin-right: 10%;">
     <div class="row">
         <label for="inputFirstName" class="col form-label">Pet Owner First Name</label>
+        <label for="inputMiddleName" class="col form-label">Pet Owner Middle Name</label>
         <label for="inputLastName" class="col form-label">Pet Owner Last Name</label>
     </div>
     <div class="row">
         <input type="text" class="col form-control" id="inputFirstName" placeholder="Pet Owner First Name" required>
+        <input type="text" class="col form-control" id="inputMiddleName" placeholder="Pet Owner Middle Name">
         <input type="text" class="col form-control" id="inputLastName"  placeholder="Pet Owner Last Name" required>
   </div>
   <div class="row">
