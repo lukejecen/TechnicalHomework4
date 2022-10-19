@@ -4,54 +4,51 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <h1 style="margin-top:50px;padding:20px;font-family:Arial" class="text-center font-weight-bold text-uppercase">Request Order</h1>
 <div id="placeOrderForm" style="font-family:Arial; margin-left: 10%; margin-right: 10%;">
+    <h2 style="margin-top:0px;padding:10px;font-family:Arial" class="text-center font-weight-bold">Dispensing Department Information</h2>
     <div class="row">
-        <label for="inputFirstName" class="col form-label">Pet Owner First Name</label>
-        <label for="inputMiddleName" class="col form-label">Pet Owner Middle Name</label>
-        <label for="inputLastName" class="col form-label">Pet Owner Last Name</label>
+        <label for="inputFirstName" class="col form-label">Dispensing Worker First Name</label>
+        <label for="inputMiddleName" class="col form-label">Dispensing Worker Middle Name</label>
+        <label for="inputLastName" class="col form-label">Dispensing Worker Last Name</label>
     </div>
     <div class="row">
-        <input type="text" class="col form-control" id="inputFirstName" placeholder="Pet Owner First Name" required>
-        <input type="text" class="col form-control" id="inputMiddleName" placeholder="Pet Owner Middle Name">
-        <input type="text" class="col form-control" id="inputLastName"  placeholder="Pet Owner Last Name" required>
+        <input type="text" class="col form-control" id="inputFirstName" placeholder="Dispensing Worker First Name" required>
+        <input type="text" class="col form-control" id="inputMiddleName" placeholder="Dispensing Worker Middle Name">
+        <input type="text" class="col form-control" id="inputLastName"  placeholder="Dispensing Worker Last Name" required>
   </div>
   <div class="row">
-        <label for="inputEmail" class="col form-label">Email Address</label>
-        <label for="inputMobilePhoneNumber" class="col form-label">Mobile Phone Number</label>
-        <label for="inputHomePhoneNumber" class="col form-label">Home Phone Number</label>
+        <label for="inputEmail" class="col form-label">Dispensing Department Email Address</label>
+        <label for="inputHomePhoneNumber" class="col form-label">Dispensing Department Phone Number</label>
   </div>
   <div class="row">
       <input type="email" class="col form-control" id="inputEmail" placeholder="name@example.com" required>
-      <input type="tel" class="col form-control" id="inputMobilePhoneNumber" placeholder="Pet Owner Mobile Phone Number">
-      <input type="tel" class="col form-control" id="inputPhoneNumber" placeholder="Pet Owner Home Phone Number">
+      <input type="tel" class="col form-control" id="inputPhoneNumber" placeholder="Dispensing Department Phone Number">
   </div>
   <div class="row">
-      <label for="inputAddressLine1" class="col form-label">Address Line 1</label>
-      <label for="inputAddressLine2" class="col form-label">Address Line 2</label>
+      <label for="inputAddressLine1" class="col form-label">Dispensing Department Address Line 1</label>
+      <label for="inputAddressLine2" class="col form-label">Dispensing Department Address Line 2</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputAddressLine1" placeholder="Street" required>
       <input type="text" class="col form-control" id="inputAddressLine2" placeholder="Apt #" required>
   </div>
   <div class="row">
-      <label for="inputCity" class="col form-label">City</label>
-      <label for="inputState" class="col form-label">State/Providence</label>
-      <label for="inputZipCode" class="col form-label">ZipCode</label>
+      <label for="inputCity" class="col form-label">Dispensing Department City</label>
+      <label for="inputState" class="col form-label">Dispensing Department State/Providence</label>
+      <label for="inputZipCode" class="col form-label">Dispensing Department ZipCode</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputCity" placeholder="City" required>
       <input type="text" class="col form-control" id="inputState" placeholder="State" required>
       <input type="number" class="col form-control" id="inputZipCode" placeholder="ZipCode" required>
   </div>
-  <br>
+  <h2 style="margin-top:0px;padding:10px;font-family:Arial" class="text-center font-weight-bold">Pet & Replacement Perscription Information</h2>
   <div class="row">
        <label for="inputPetName" class="col form-label">Pets Name</label>
        <label for="inputPetIdNumber" class="col form-label">Pets Identification Number</label>
-       <label for="inputPetBreed" class="col form-label">Pets Breed</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputPetName" placeholder="Pet Name" required>
       <input type="number" class="col form-control" id="inputPetIdNumber" placeholder="ID Number" required>
-      <input type="text" class="col form-control" id="inputPetBreed" placeholder="Breed" > 
   </div>
   <div class ="row">
       <label for="inputOriginalPerscriptionDosage" class="col form-label">Original Perscription Name</label>
@@ -70,16 +67,14 @@
       <input type="date" class="col form-control" id="inputOrignalOrderDate" required>
   </div>
   <div class ="row">
-      <label for="inputNewPerscriptionName" class="col form-label">New Perscription Name</label>
-      <label for="inputNewPerscriptionDosage" class="col form-label">New Perscription Dosage</label>
-      <label for="inputNewOrderDate" class="col form-label">New Perscription Order Date</label>
+      <label for="inputNewPerscriptionName" class="col form-label">Replacement Perscription Name</label>
+      <label for="inputReplacementPerscripOrderDate" class="col form-label">Perscription Replacment Requested Date</label>
   </div>
   <div class="row">
-      <input type="text" class="col form-control" id="inputNewPerscriptionName" placeholder="New Perscription Name" required>
-      <input type="text" class="col form-control" id="inputNewPerscriptionDosage" placeholder="### mg" required>
-      <input type="date" class="col form-control" id="inputNewOrderDate" required>
+      <input type="text" class="col form-control" id="inputReplacementPerscriptionName" placeholder="Replacement Perscription Name" required>
+      <input type="date" class="col form-control" id="inputReplacementPerscripOrderDate" required>
   </div>
-  <br>
+  <h2 style="margin-top:0px;padding:10px;font-family:Arial" class="text-center font-weight-bold">Veternarian Information</h2>
   <div class="row">
     <label for="inputVetFirstName" class="col form-label">Veternarian First Name</label>
     <label for="inputVetLastName" class="col form-label">Veternarian Last Name</label>

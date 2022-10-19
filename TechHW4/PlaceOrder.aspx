@@ -4,6 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <h1 style="margin-top:50px;padding:20px;font-family:Arial" class="text-center font-weight-bold text-uppercase">Place Order</h1>
 <div id="placeOrderForm" style="font-family:Arial; margin-left: 10%; margin-right: 10%;">
+    <h2 style="margin-top:0px;padding:10px;font-family:Arial" class="text-center font-weight-bold">Pet Owner Information Information</h2>
     <div class="row">
         <label for="inputFirstName" class="col form-label">Pet Owner First Name</label>
         <label for="inputMiddleName" class="col form-label">Pet Owner Middle Name</label>
@@ -15,9 +16,9 @@
         <input type="text" class="col form-control" id="inputLastName"  placeholder="Pet Owner Last Name" required>
   </div>
   <div class="row">
-        <label for="inputEmail" class="col form-label">Email Address</label>
-        <label for="inputMobilePhoneNumber" class="col form-label">Mobile Phone Number</label>
-        <label for="inputHomePhoneNumber" class="col form-label">Home Phone Number</label>
+        <label for="inputEmail" class="col form-label">Pet Owner Email Address</label>
+        <label for="inputMobilePhoneNumber" class="col form-label">Pet Owner Mobile Phone Number</label>
+        <label for="inputHomePhoneNumber" class="col form-label">Pet Owner Home Phone Number</label>
   </div>
   <div class="row">
       <input type="email" class="col form-control" id="inputEmail" placeholder="name@example.com" required>
@@ -25,24 +26,24 @@
       <input type="tel" class="col form-control" id="inputPhoneNumber" placeholder="Pet Owner Home Phone Number">
   </div>
   <div class="row">
-      <label for="inputAddressLine1" class="col form-label">Address Line 1</label>
-      <label for="inputAddressLine2" class="col form-label">Address Line 2</label>
+      <label for="inputAddressLine1" class="col form-label">Pet Owner Address Line 1</label>
+      <label for="inputAddressLine2" class="col form-label">Pet Owner Address Line 2</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputAddressLine1" placeholder="Street" required>
       <input type="text" class="col form-control" id="inputAddressLine2" placeholder="Apt #" required>
   </div>
   <div class="row">
-      <label for="inputCity" class="col form-label">City</label>
-      <label for="inputState" class="col form-label">State/Providence</label>
-      <label for="inputZipCode" class="col form-label">ZipCode</label>
+      <label for="inputCity" class="col form-label">Pet Owner City</label>
+      <label for="inputState" class="col form-label">Pet Owner State/Providence</label>
+      <label for="inputZipCode" class="col form-label">Pet Owner ZipCode</label>
   </div>
   <div class="row">
       <input type="text" class="col form-control" id="inputCity" placeholder="City" required>
       <input type="text" class="col form-control" id="inputState" placeholder="State" required>
       <input type="number" class="col form-control" id="inputZipCode" placeholder="ZipCode" required>
   </div>
-  <br>
+  <h2 style="margin-top:0px;padding:10px;font-family:Arial" class="text-center font-weight-bold">Pet & Perscription Information</h2>
   <div class="row">
        <label for="inputPetName" class="col form-label">Pets Name</label>
        <label for="inputPetIdNumber" class="col form-label">Pets Identification Number</label>
@@ -63,7 +64,7 @@
       <input type="text" class="col form-control" id="inputPerscriptionDosage" placeholder="### mg" required>
       <input type="date" class="col form-control" id="inputOrderDate" required>
   </div>
-  <br>
+  <h2 style="margin-top:0px;padding:10px;font-family:Arial" class="text-center font-weight-bold">Veternarian Information</h2>
   <div class="row">
     <label for="inputVetFirstName" class="col form-label">Veternarian First Name</label>
     <label for="inputVetLastName" class="col form-label">Veternarian Last Name</label>
